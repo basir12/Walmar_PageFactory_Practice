@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.Walmart_Test.Call_Methods">
+        <methods>
+          <include name="searchJewalary"/>
+          <include name="call_methods"/>
+          <include name="afterMethod"/>
+          <include name="beforMethod"/>
+          <include name="beforclass"/>
+        </methods>
+      </class> <!-- com.Walmart_Test.Call_Methods -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

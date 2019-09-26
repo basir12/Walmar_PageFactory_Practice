@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <groups>
+      <run>
+        <include name="regrassion_Test"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.Walmart_Page.Walmart_MainPage_Search">
+        <methods>
+          <include name="searchoptisdfon"/>
+          <include name="afterMethod"/>
+          <include name="beforMethod"/>
+          <include name="beforclass"/>
+          <include name="jewalry"/>
+        </methods>
+      </class> <!-- com.Walmart_Page.Walmart_MainPage_Search -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
